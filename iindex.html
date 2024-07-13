@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header></header>
+
+    <main>
+
+        <div class="pantallas">
+            <textarea  id="pantalla" class="pantalla" placeholder="Historial" name="" id="" cols="30" rows="10"></textarea>
+            <textarea  class="pantalla" placeholder="Resultado" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+
+    <div class="botones">
+    <button class="boton">AC</button>
+    <button class="boton">%</button>
+    <button  onclick="eliminar();" class="boton">c</x></button>
+
+    <button class="boton">/</button>
+
+    <button onclick="escribirTexto(7);" class="boton">7</button>
+    <button onclick="escribirTexto(8);" class="boton">8</button>
+    <button onclick="escribirTexto(9);" class="boton">9</button>
+
+    <button class="boton">X</button>
+    <button onclick="escribirTexto(4);" class="boton">4</button>
+    <button onclick="escribirTexto(5);" class="boton">5</button>
+    <button onclick="escribirTexto(6);" class="boton">6</button>
+    <button class="boton">-</button>
+
+    <button onclick="escribirTexto(1);"  class="boton">1</button>
+    <button onclick="escribirTexto(2);"  class="boton">2</button>    
+    <button onclick="escribirTexto(3);" class="boton">3</button>
+
+    <button class="boton">+</button>
+    <button class="boton">00</button>
+
+    <button onclick="escribirTexto(0);" class="boton">0</button>
+    <button class="boton">.</button>
+    <button class="boton">=</button>
+
+        
+      </button>
+   </div>
+    </main>
+
+    <footer></footer>
+    <script src="app.js"></script>
+
+</body>
+</html>
